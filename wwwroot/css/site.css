@@ -1,0 +1,13 @@
+﻿@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-heading mb-2;
+    }
+
+    p {
+        @apply font-primary mb-4;
+    }
+}
